@@ -15,6 +15,7 @@ func()
 print('value of x is',x)
 
 def total(a=5,*numbers,**phonebook):
+    'my name haha'
     print('a',a)
     for single_item in numbers:
         print('single_item',single_item)
@@ -23,3 +24,7 @@ def total(a=5,*numbers,**phonebook):
         print(first_part,second_part)
 
 print(total(110,1,2,3,jack=1123))
+print(total.__doc__)
+
+
+#DocStrings
